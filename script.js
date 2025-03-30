@@ -1,4 +1,5 @@
 // scroll secetion 
+document.getElementById("year").textContent = new Date().getFullYear();
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar')
